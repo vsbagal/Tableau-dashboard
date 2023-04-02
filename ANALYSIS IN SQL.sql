@@ -1,22 +1,6 @@
 
 
-## Data Analysis Using SQL
 
--- QUE1. Show all customer records
-
-    `SELECT * FROM customers;`
-
--- QUE2. Show total number of customers
-
-    `SELECT count(*) FROM customers;`
-
--- QUE3. Show transactions for Chennai market (market code for chennai is Mark001
-
-    `SELECT * FROM transactions where market_code='Mark001';`
-
--- QUE4. Show distrinct product codes that were sold in chennai
-
-    `SELECT distinct product_code FROM transactions where market_code='Mark001';`
 
 -- QUE5. Show transactions where currency is US dollars
 
